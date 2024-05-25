@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+
+
+.custom-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .custom-btn:hover {
+    color: #ff0000; /* Cambia el color del texto al pasar el ratón por encima :,v*/
+  }
+
+p {
+    color: white;
+}
+
+body {
+    color: black;
+}
+.custom-section {
+    background-color: #292727; /* Cambia este color al que prefieras */
+    padding: 20px;
+  }
+.custom-position {
+    margin-left: -90px;
+    margin-top: 10px;
+}
+
+/*Contenido inferior del Main*/
+.additional-content {
+  margin-top: 20px; /* Ajusta el espacio superior según sea necesario */
+  padding: 20px; 
+  background-color: #f9f9f9; /* Color de fondo para distinguir el contenido adicional */
+  border-radius: 5px; /* Bordes redondeados opcionales */
+}
+h3, h2{
+  color: black
+}
+
